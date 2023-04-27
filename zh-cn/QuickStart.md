@@ -1,11 +1,13 @@
 # 如何在本站添加你的文档
 
 ## 创建中文文档
-- 点击文档站右上角GitHub图标进入文档站所在仓库
-- 进入zh-cn目录后点击Add file->Create new file新建文件，文件名遵循单一字母首字母大写原则
-- 使用markdown语法编辑你的文档内容
-- 点击Propose new file->Create pull request提交你的pr请求
-- 等待管理员合并你的pr请求
+- [去这里创建新文件](https://github.com/cryptomore/docs/new/master/zh-cn)，或
+- 点击右上角GitHub图标进入文档仓库，进入zh-cn目录后点击Add file->Create new file新建文件
+  - 文件名遵循[驼峰命名规范](https://zh.wikipedia.org/zh-tw/%E9%A7%9D%E5%B3%B0%E5%BC%8F%E5%A4%A7%E5%B0%8F%E5%AF%AB)
+  - 文件名只能为英文组成
+- 使用Markdown语法编辑你的文档内容
+  - 使用github.com内嵌Markdown编辑器编辑和预览文档，或
+  - 将[文档仓库](https://github.com/cryptomore/docs.git) fork到自己的空间并下载到本地编辑后上传，再通过pull request merge到源仓库
 
 ## 将文档访问路径添加到导航
 - 在zh-cn目录下的_sidebar.md文件添加```- [目录显示名称](zh-cn/你的md文件名)```
