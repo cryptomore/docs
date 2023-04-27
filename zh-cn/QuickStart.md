@@ -7,7 +7,8 @@
   - 文件名只能为英文组成
 - 使用Markdown语法编辑你的文档内容
   - 使用github.com内嵌Markdown编辑器编辑和预览文档，或
-  - 将[文档仓库](https://github.com/cryptomore/docs.git) fork到自己的空间并下载到本地编辑后上传，再通过pull request merge到源仓库
+  - 将[文档仓库](https://github.com/cryptomore/docs.git) fork到自己的空间并下载到本地编辑后上传
+- 创建pull request将新文档合并到源仓库
 
 ## 将文档访问路径添加到导航
 - 在zh-cn目录下的_sidebar.md文件添加```- [目录显示名称](zh-cn/你的md文件名)```
