@@ -41,7 +41,7 @@
 - 在本站引用你的内部文档
   - [点我修改导航栏](https://github.com/cryptomore/docs/edit/master/zh-cn/_sidebar.md)，或
   - 点击右上角GitHub图标进入[文档仓库](https://github.com/cryptomore/docs)，进入zh-cn目录后编辑_sidebar.md文件
-  - 在你的文档所属标题类目后追加一行```- [目录显示名称](zh-cn/内部文档仓库地址)```
+  - 在你的文档所属标题类目后追加一行```- [目录显示名称](内部文档仓库地址)```
   - 创建pull request，步骤同[创建中文文档](#创建中文文档)
 
 ## 文档模板
