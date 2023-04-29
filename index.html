@@ -73,16 +73,21 @@
           auth: 'Crypto More',
       },
       plugins: [
-          function(hook, vm) {
-	      hook.beforeEach(function(html) {
-	          var url =
-		      "https://github.com/cryptomore/docs/blob/master/" +
-		      vm.route.file;
-	          var editHtml = "[:memo: EDIT DOCUMENT](" + url + ")\n";
-                  return editHtml + html;
-              });
-	  }
-      ]
+        function editButton(hook, vm) {
+          // The date template pattern
+          $docsify.formatUpdated = '{YYYY}/{MM}/{DD} {HH}:{mm}';
+          hook.beforeEach(function (html) {
+            var url = "https://github.com/cryptomore/docs/blob/master/" + vm.route.file;
+            var editHtml = '[:memo: EDIT DOCUMENT](' + url + ')\n';
+            return (
+              html +
+              '\n----\n' +
+	      'Last modified {docsify-updated} </br>' +
+              editHtml
+            );
+          });
+        },
+      ],
     }
   </script>
   <!-- Docsify v4 -->
