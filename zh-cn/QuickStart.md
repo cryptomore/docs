@@ -19,12 +19,13 @@
 - [点我修改导航栏](https://github.com/cryptomore/docs/edit/master/zh-cn/_sidebar.md)，或
 - 点击右上角GitHub图标进入[文档仓库](https://github.com/cryptomore/docs)，进入zh-cn目录后编辑_sidebar.md文件
   - 在你的文档所属标题类目后追加一行```- [目录显示名称](zh-cn/你的md文件名)```
+  - 不知道添加到哪儿也没事，直接找管理员
 - 创建pull request，步骤同[创建中文文档](#创建中文文档)
 - 等待管理员合并你的pull request请求 ```写了不合等于没写，催ta合代码！当天就dei审核完！```
 
 ## 创建英文文档
 - [点我即刻创建新文件](https://github.com/cryptomore/docs/new/master)，或
-- 点击右上角GitHub图标进入[文档仓库](https://github.com/cryptomore/docs)，在根目录后点击Add file->Create new file新建文件
+- 点击右上角GitHub图标进入[文档仓库](https://github.com/cryptomore/docs)，在根目录下点击Add file->Create new file新建文件
 - 命名规则同[创建中文文档](#创建中文文档)
 - 英文文档一定要write in english
 - 创建pull request，步骤同[创建中文文档](#创建中文文档)
